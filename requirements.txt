@@ -1,0 +1,27 @@
+It is requiered to install the following locally
+
+pip install pandas
+pip install matplotlib
+pip install scipy
+pip install seaborn
+
+it is important to upload the file Precios_Crisis.xlsx to run the program and it's where the data it's stored
+
+The program has to be executed step by step, 
+
+1. The data is uploaded and then plotted
+2. The data is transformed to returns and differences, also its plotted
+3. Statistics for different time horizons are computed
+4. Functions for VaR and ES are defined
+5. HS for VaR and ES using all date is computed (this part could be skipped, just the first time to see an overall picture)
+6. Functions for the weigths and the AW-VaR and AW-ES 
+7. HS for AW-VaR and AW-ES using all date is computed (this part could be skipped, just the first time to see an overall picture)
+8. All four metrics are stored on dataframes at different horizons, considering one year of information 
+9. A plot of the 4 metrics of each variable for each time horizon is plotted. 
+10. Daily volatility is computed and plotted for each variable.
+11. The backtest is performed, with one year information metrics are calculated, 
+    then if the observation is higher than the metric an exception is computed and accumulated. 
+    In this section an excel file could be downloaded so exceptions could be analyzed extarnally or deliver to the riskmanagament department
+12.A brief part for extreme values are calculated. 
+
+
